@@ -1,6 +1,6 @@
 <h1>Hi there👋, Welcome!</h1>
 
-<img src="https://media1.tenor.com/m/WkgpyPpxpDUAAAAC/work-internet.gif" width="918" height="518" alt="Work Internet GIF - Work Internet Computer GIFs" style="max-width: 518px;">
+<img src="https://tryhackme.com/badge/3069083" width="918" height="518" alt="Work Internet GIF - Work Internet Computer GIFs" style="max-width: 518px;">
 
 <html>
 <script src="https://tryhackme.com/badge/3069083"></script> </html>
