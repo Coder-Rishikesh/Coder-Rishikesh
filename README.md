@@ -1,7 +1,4 @@
 <h1>Hi there👋, Welcome!</h1>
-
-<img src="https://tryhackme-badges.s3.amazonaws.com/Cyber.Shiva.png" alt="TryHackMe">
-- 🌱 I’m currently Studying
 - 💞️ Love to Code
 
 
