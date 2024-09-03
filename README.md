@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I'm a passionate coder who loves to explore the en
 !Your GitHub stats
 
 ## 🏆 TryHackMe Badge
-<script src="https://tryhackme.com/badge/3069083"> </script>
+<img src="https://tryhackme-badges.s3.amazonaws.com/Cyber.Shiva.png" alt="TryHackMe">
 
 ## 💬 Let's Connect
 Feel free to reach out if you want to collaborate on a project, discuss coding, or just say hi!
