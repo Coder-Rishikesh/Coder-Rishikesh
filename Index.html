@@ -8,78 +8,85 @@
         body {
             font-family: Arial, sans-serif;
             color: #333;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
             margin: 0;
             padding: 0;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
         header {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
+            background: #282c34;
+            color: #61dafb;
+            padding: 1.5em 0;
             text-align: center;
         }
-        .banner {
+        header img {
             width: 100%;
             height: auto;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #282c34;
         }
         a {
-            color: #007bff;
+            color: #61dafb;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        .projects, .tutorials, .contact {
-            background: #fff;
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 2em 0;
+        }
+        .section {
+            background: #ffffff;
             padding: 2em;
-            margin: 2em 0;
-            border-radius: 8px;
+            margin-bottom: 2em;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .project, .tutorial {
-            margin-bottom: 1.5em;
-        }
-        .project img, .tutorial img {
+        .section img {
             width: 100%;
             height: auto;
-            border-radius: 8px;
+            border-radius: 10px;
+        }
+        .section h2 {
+            color: #ff6347;
+        }
+        .section pre {
+            background: #f8f8f2;
+            border: 1px solid #ddd;
+            padding: 1em;
+            border-radius: 5px;
         }
         .contact-info {
-            background: #007bff;
-            color: #fff;
+            background: #4caf50;
+            color: #ffffff;
             padding: 1em;
-            border-radius: 8px;
+            border-radius: 10px;
         }
         footer {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
+            background: #282c34;
+            color: #61dafb;
             text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="https://your-image-link.com/banner.gif" alt="Profile Banner" class="banner">
-            <h1>Welcome to Rishikesh Kumar's GitHub!</h1>
-            <p>India's youngest certified ethical hacker, passionate about hacking, coding, and creating innovative tools.</p>
-        </div>
+        <img src="https://your-image-link.com/banner.png" alt="Profile Banner">
+        <h1>Welcome to Rishikesh Kumar's GitHub!</h1>
+        <p>India's youngest certified ethical hacker, passionate about hacking, coding, and creating innovative tools.</p>
     </header>
     <div class="container">
-        <section class="projects">
-            <h2>🛠️ Projects</h2>
-            <div class="project">
+        <section class="section">
+            <h2>🛠️ My Projects</h2>
+            <div>
                 <h3>CoolHackerTool</h3>
-                <img src="https://your-image-link.com/tool.gif" alt="CoolHackerTool">
+                <img src="https://your-image-link.com/tool.png" alt="CoolHackerTool">
                 <p><strong>Description:</strong> A comprehensive tool for vulnerability scanning and exploitation.</p>
                 <p><strong>Features:</strong></p>
                 <ul>
@@ -94,9 +101,9 @@ npm install</code></pre>
                 <p><strong>Usage:</strong></p>
                 <pre><code>node index.js</code></pre>
             </div>
-            <div class="project">
+            <div>
                 <h3>SecureCodeAnalyzer</h3>
-                <img src="https://your-image-link.com/analyzer.gif" alt="SecureCodeAnalyzer">
+                <img src="https://your-image-link.com/analyzer.png" alt="SecureCodeAnalyzer">
                 <p><strong>Description:</strong> An advanced tool for static code analysis to identify security flaws.</p>
                 <p><strong>Features:</strong></p>
                 <ul>
@@ -112,28 +119,28 @@ pip install -r requirements.txt</code></pre>
                 <pre><code>python analyze.py &lt;your-code-file&gt;</code></pre>
             </div>
         </section>
-        <section class="tutorials">
+        <section class="section">
             <h2>📚 Tutorials and Write-ups</h2>
-            <div class="tutorial">
+            <div>
                 <h3>Ethical Hacking 101</h3>
-                <img src="https://your-image-link.com/tutorial1.gif" alt="Ethical Hacking 101">
-                <p>Learn the basics of ethical hacking and how to start your journey in cybersecurity. <a href="https://your-tutorial-link.com/ethical-hacking">Read More</a></p>
+                <img src="https://your-image-link.com/tutorial1.png" alt="Ethical Hacking 101">
+                <p>A comprehensive guide to understanding the basics of ethical hacking. <a href="https://your-tutorial-link.com/ethical-hacking">Read More</a></p>
             </div>
-            <div class="tutorial">
+            <div>
                 <h3>Building Tools for Cybersecurity</h3>
-                <img src="https://your-image-link.com/tutorial2.gif" alt="Building Tools">
-                <p>Step-by-step guide on creating effective tools for security assessments. <a href="https://your-tutorial-link.com/building-tools">Read More</a></p>
+                <img src="https://your-image-link.com/tutorial2.png" alt="Building Tools">
+                <p>Learn how to create effective tools for security assessments. <a href="https://your-tutorial-link.com/building-tools">Read More</a></p>
             </div>
-            <div class="tutorial">
+            <div>
                 <h3>Advanced Coding Techniques</h3>
-                <img src="https://your-image-link.com/tutorial3.gif" alt="Advanced Coding">
+                <img src="https://your-image-link.com/tutorial3.png" alt="Advanced Coding">
                 <p>Explore advanced coding techniques to enhance your programming skills. <a href="https://your-tutorial-link.com/advanced-coding">Read More</a></p>
             </div>
         </section>
-        <section class="contact">
+        <section class="section">
             <h2>📫 Contact Me</h2>
             <div class="contact-info">
-                <p>Feel free to reach out to me for questions, collaborations, or just to connect:</p>
+                <p>Connect with me for questions, collaborations, or just to chat:</p>
                 <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-profile">Rishikesh Kumar</a></p>
                 <p><strong>Twitter:</strong> <a href="https://twitter.com/yourusername">@yourusername</a></p>
