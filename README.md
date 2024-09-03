@@ -1,7 +1,3 @@
-Certainly, Rishikesh! Here's a README template for your GitHub profile that reflects your credentials, interests, and projects. It incorporates placeholders for animations and images related to hacking, coding, and vulnerability scanning. Feel free to update it with your specific content and images.
-
----
-
 # Welcome to Rishikesh Kumar's GitHub! 🚀
 
 ![Profile Banner](https://your-image-link.com/banner.gif) 
