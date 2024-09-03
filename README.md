@@ -1,8 +1,29 @@
-<h1>Hi there👋, Welcome!</h1>
-- 💞️ Love to Code
+# Hi there, I'm Rishi 👋
 
-<script> src="https://tryhackme.com/badge/3069083" </script>
+Welcome to my GitHub profile! I'm a passionate coder who loves to explore the endless possibilities of technology. Here's a little about me:
 
+## 🚀 About Me
+- 🌱 I’m currently learning and experimenting with new programming languages and frameworks.
+- 💻 I love working on open-source projects and contributing to the community.
+- 🧠 I'm fascinated by the world of coding, from web development to machine learning.
+- 🎓 I'm always eager to learn and grow my skills.
+
+## 🛠️ Technologies & Tools
+- **Languages:** Java, C, C++, Bash
+- **Tools:** Git, VS Code, Kali Linux
+
+## 📈 GitHub Stats
+!Your GitHub stats
+
+## 🏆 TryHackMe Badge
+<script src="https://tryhackme.com/badge/3069083"></script>
+
+## 💬 Let's Connect
+Feel free to reach out if you want to collaborate on a project, discuss coding, or just say hi!
+
+---
+
+Thanks for visiting my profile! Keep coding and have a great day! 😊
 
 <!---
 Coder-Rishikesh/Coder-Rishikesh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
