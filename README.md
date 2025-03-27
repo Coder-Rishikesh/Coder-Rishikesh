@@ -13,4 +13,4 @@ Hello! I’m **Rishikesh Kumar**, a certified ethical hacker (CEH v11) and curre
 
 I thrive on discovering vulnerabilities, coding innovative solutions, and sharing my knowledge through detailed write-ups. Let's dive into my work!
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3069083" style='border:none;'></iframe>
+
